@@ -3,13 +3,12 @@
 " ====================================================================
 set nocompatible              " Use Vim defaults instead of old Vi behaviors
 syntax on                     " Enable code syntax highlighting
-filetype plugin indent on     " Enable detection, plugins, and indenting for filetypes
 set number                    " Show line numbers
 set relativenumber            " Show relative line numbers for faster jumping
 set cursorline                " Highlight the screen line of the cursor
 set wrap                      " Wrap long text lines visually
 set encoding=utf-8            " Set standard UTF-8 string encoding
-set scrolloff=10              " Keep the space from the cursor
+set scrolloff=5               " Keep the space from the cursor
 
 " ====================================================================
 " Tabs & Indentation (2-Space Standard)
@@ -42,3 +41,34 @@ set history=1000              " Increase the command and search history limit
 " ====================================================================
 let &t_EI = "\<Esc>[2 q"  " Normal mode: Block
 let &t_SI = "\e[6 q"      " Steady vertical bar in Insert mode
+
+" ====================================================================
+" Custom keymaps
+" ====================================================================
+source ~/.vim/keybinds.vim
+
+" ====================================================================
+" Colorscheme
+" ====================================================================
+let g:gruvbox_contrast_dark="medium"
+set background=dark
+colorscheme gruvbox
+
+" ====================================================================
+" light line
+" ====================================================================
+set laststatus=2
+set noshowmode
+let g:lightline={'colorscheme': 'gruvbox'}
+
+" ====================================================================
+" Vimi-wiki
+" ====================================================================
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': 'md'}]
+let g:vimwiki_global_ext = 0 " Treat all markdown file as part of Vimwiki
+
+" ====================================================================
+" comments plugin
+" ====================================================================
+filetype plugin indent on     " Enable detection, plugins, and indenting for filetypes
