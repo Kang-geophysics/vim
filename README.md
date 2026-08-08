@@ -1,6 +1,8 @@
 # vim
 
-This is a simple vim setup including simple plugins using vim-package.
+This is a simple vim setup including key-bindings and simple plugins with vim-package.
+
+## How to install?
 
 ```shell
 cd ~
@@ -9,12 +11,22 @@ cd ~/.vim/
 tar -xvf pack.tar
 ```
 
+## Add helptags
+
 To add helptags, please following commands:
 
 ```shell
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/commentary/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/vimwiki/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/lightline/doc' -c quit
+```
+
+## How to add keybindings?
+
+Open the `~/.vim/keybinds.vim` file and edit.
+
+```shell
+vi ~/.vim/keybinds.vim
 ```
 
 ## Plugins
