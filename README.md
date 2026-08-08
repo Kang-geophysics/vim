@@ -35,3 +35,11 @@ vi ~/.vim/keybinds.vim
 - [Gruvbox-theme](https://github.com/morhetz/gruvbox)
 - [Vim-commentary](https://github.com/tpope/vim-commentary)
 - [Vim-wiki](https://github.com/vimwiki/vimwiki)
+
+## How to add another plugins?
+
+`.vim/pack/plugins/` has two directories. 
+
+If you want to automatically load plugins, please install the plugin under `.vim/pack/*/start`. Then those plugin will be automatically loaded when you open the Vim.
+
+If you want to manually load plugins, please install the plugins under `.vim/pack/*/opt`. And when you need them, just type `:packadd {plugin_name}` to load those. 
