@@ -1,0 +1,44 @@
+" ===================================================================
+" General & UI Settings
+" ====================================================================
+set nocompatible              " Use Vim defaults instead of old Vi behaviors
+syntax on                     " Enable code syntax highlighting
+filetype plugin indent on     " Enable detection, plugins, and indenting for filetypes
+set number                    " Show line numbers
+set relativenumber            " Show relative line numbers for faster jumping
+set cursorline                " Highlight the screen line of the cursor
+set wrap                      " Wrap long text lines visually
+set encoding=utf-8            " Set standard UTF-8 string encoding
+set scrolloff=10              " Keep the space from the cursor
+
+" ====================================================================
+" Tabs & Indentation (2-Space Standard)
+" ====================================================================
+set tabstop=2                 " Number of visual spaces per TAB character
+set softtabstop=2             " Number of spaces a TAB feels like when editing
+set shiftwidth=2              " Number of spaces used for auto-indentation
+set expandtab                 " Convert TAB characters into physical spaces
+set autoindent                " Copy indent from current line when starting a new line
+set smartindent               " Insert indents automatically where appropriate
+
+" ====================================================================
+" Search Settings
+" ====================================================================
+set incsearch                 " Highlight search matches instantly while typing
+set hlsearch                  " Keep search matches highlighted
+set ignorecase                " Ignore case rules when using search patterns
+set smartcase                 " Override 'ignorecase' if pattern contains uppercase
+
+" ====================================================================
+" Performance & Backup Tweaks
+" ====================================================================
+set nobackup                  " Do not create alternative backup files
+set noswapfile                " Disable swap files for smoother handling
+set hidden                    " Allow switching buffers without saving first
+set history=1000              " Increase the command and search history limit
+
+" ====================================================================
+" Change cursor shape based on mode in terminal
+" ====================================================================
+let &t_EI = "\<Esc>[2 q"  " Normal mode: Block
+let &t_SI = "\e[6 q"      " Steady vertical bar in Insert mode
