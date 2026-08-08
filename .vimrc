@@ -48,6 +48,12 @@ let &t_SI = "\e[6 q"      " Steady vertical bar in Insert mode
 source ~/.vim/keybinds.vim
 
 " ====================================================================
+" Enable syntax highlighting for markdown fenced code block
+" ====================================================================
+let g:markdown_fenced_languages = ['cpp', 'js=javascript',
+      \ 'json', 'python', 'bash=sh', 'vim', 'ruby', 'yaml', 'toml']
+
+" ====================================================================
 " Colorscheme
 " ====================================================================
 let g:gruvbox_contrast_dark="medium"
