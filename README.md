@@ -13,7 +13,7 @@ tar -xvf pack.tar
 
 ## Add helptags
 
-To add helptags, please following commands:
+To add helptags, please type following commands:
 
 ```shell
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/commentary/doc' -c quit
