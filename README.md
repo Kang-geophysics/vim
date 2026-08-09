@@ -8,8 +8,10 @@ This is a simple vim setup including key-bindings and simple plugins with vim-pa
 cd ~
 mv .vim{,.bak}
 mv .vimrc{,.bak}
-git clone https://github.com/Kang-geophysics/vim.git ./
-rm -rf .git
+git clone https://github.com/Kang-geophysics/vim.git
+mv vim/.vimrc ~/
+mv vim/.vim ~/
+rm -rf vim
 cd ~/.vim/
 tar -xvf pack.tar
 ```
