@@ -21,6 +21,11 @@ tar -xvf pack.tar
 To add helptags, please type following commands:
 
 ```shell
+vim -u NONE -c 'helptags ALL' -c quit
+```
+Or, you can generate individually.
+
+```shell
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/commentary/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/vimwiki/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/lightline/doc' -c quit
