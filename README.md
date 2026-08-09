@@ -6,6 +6,7 @@ This is a simple vim setup including key-bindings and simple plugins with vim-pa
 
 ```shell
 cd ~
+mv .vim{,.bak}
 git clone https://github.com/Kang-geophysics/vim.git
 cd ~/.vim/
 tar -xvf pack.tar
