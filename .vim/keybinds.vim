@@ -59,3 +59,11 @@ nnoremap ]q :cn<CR> " Next quickfix item
 nnoremap <leader>xl :ll<CR> " Open location list 
 nnoremap [l :lp<CR> " Previous location item
 nnoremap ]l :lne<CR> " Next location item 
+
+" ===================================================================
+" Move the line location
+" ===================================================================
+nnoremap <M-k> :move .-2<CR>== " Move current line up
+nnoremap <M-j> :move .+1<CR>== " Move current line down
+vnoremap <M-k> :move '>-2<CR>== " Move visually selected line up
+vnoremap <M-j> :move '>+1<CR>== " Move visually selected line down
