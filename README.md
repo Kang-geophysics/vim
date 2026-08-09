@@ -9,6 +9,7 @@ cd ~
 mv .vim{,.bak}
 mv .vimrc{,.bak}
 git clone https://github.com/Kang-geophysics/vim.git ./
+rm -rf .git
 cd ~/.vim/
 tar -xvf pack.tar
 ```
