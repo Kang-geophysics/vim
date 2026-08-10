@@ -67,12 +67,18 @@ set laststatus=2
 set noshowmode
 source ~/.vim/lightline_w_devicon.vim
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
-      \ 'component_function': {
-      \   'filetype': 'MyFiletype',
-      \   'fileformat': 'MyFileformat'
-      \ }
-      \ }
+      \   'colorscheme': 'gruvbox',
+      \   'active':{
+      \       'left': [ ['mode','paste'],
+      \                 ['gitbranch', 'readonly', 'filename', 'modified']
+      \               ]
+      \   },
+      \   'component_function': {
+      \     'gitbranch': 'FugitiveHead',
+      \     'filetype': 'MyFiletype',
+      \     'fileformat': 'MyFileformat'
+      \   }
+      \}
 
 " ====================================================================
 " Vimi-wiki
