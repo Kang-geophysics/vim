@@ -64,6 +64,7 @@ vi ~/.vim/keybinds.vim
 | `;;` | Insert | Fast escape to Normal mode |
 | `<Leader>ur` | Normal | Clear search highlight (`:noh`) |
 | `<Leader>e` | Normal | Toggle NERDTree file explorer |
+| `<Leader>n` | Normal | Toggle netrw file explorer |
 
 ### Line Movement
 
