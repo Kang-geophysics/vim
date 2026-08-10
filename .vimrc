@@ -56,8 +56,8 @@ let g:markdown_fenced_languages = ['cpp', 'js=javascript',
 " ====================================================================
 " Colorscheme
 " ====================================================================
-let g:gruvbox_contrast_dark="medium"
-set background=dark
+set background=dark                  " dark or light
+let g:gruvbox_contrast_dark = "dark" " soft or medium or hard
 colorscheme gruvbox
 
 " ====================================================================
