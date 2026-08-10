@@ -67,3 +67,8 @@ nnoremap <M-k> :move .-2<CR>== " Move current line up
 nnoremap <M-j> :move .+1<CR>== " Move current line down
 vnoremap <M-k> :move '>-2<CR>gv=gv " Move visually selected line up
 vnoremap <M-j> :move '>+1<CR>gv=gv " Move visually selected line down
+
+" ===================================================================
+" Terminal
+" ===================================================================
+nnoremap <leader>ft :belowright term ++rows=4<CR>
