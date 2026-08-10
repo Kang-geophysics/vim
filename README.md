@@ -33,9 +33,10 @@ vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/vim-devicons/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/nerdtree/doc' -c quit
 ```
 
-## How to add keybindings?
+## How to edit keybindings?
 
-Open the `~/.vim/keybinds.vim` file and edit.
+I wrote this based on the [LazyVim](https://www.lazyvim.org/) Keymaps default configuration.
+If you want to edit keybindings, open the `~/.vim/keybinds.vim` file and edit.
 
 ```shell
 vi ~/.vim/keybinds.vim
@@ -58,7 +59,7 @@ If you want to automatically load plugins, please install the plugins under `.vi
 
 If you want to manually load plugins, please install the plugins under `.vim/pack/*/opt`. And when you need them, just type `:packadd {plugin_name}` to load them. 
 
-## Screenshot
+## A screenshot
 
 <img width="1496" height="933" alt="image" src="https://github.com/user-attachments/assets/df1fcdfc-f48c-4fc6-b2ce-6ed2bb75feea" />
 
