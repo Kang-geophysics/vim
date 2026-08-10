@@ -65,15 +65,7 @@ colorscheme gruvbox
 " ====================================================================
 set laststatus=2
 set noshowmode
-" Custom function for filetype icon
-function! MyFiletype()
-  return winwidth(0) > 70 ? (strlen(&filetype) ? &filetype . ' ' . WebDevIconsGetFileTypeSymbol() : 'no ft') :
-endfunction
-" Custom function for fileformat icon (optional)
-function! MyFileformat()
-  return winwidth(0) > 70 ? (&fileformat . ' ' . WebDevIconsGetFileFormatSymbol()) : ''
-endfunction
-" Lightline configuration
+source ~/.vim/lightline_w_devicon.vim
 let g:lightline = {
       \ 'colorscheme': 'gruvbox',
       \ 'component_function': {
