@@ -122,6 +122,7 @@ If you want to manually load plugins, please install the plugins under `.vim/pac
 
 ## A screenshot
 
-<img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/135d0a4b-120f-4841-a673-7860384ac59c" />
+<img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/4de5b92a-19f4-4b56-b5c5-a706e44866cc" />
+
 
 
