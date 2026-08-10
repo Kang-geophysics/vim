@@ -1,4 +1,4 @@
-" ===================================================================
+" ====================================================================
 " General & UI Settings
 " ====================================================================
 set nocompatible              " Use Vim defaults instead of old Vi behaviors
@@ -57,7 +57,7 @@ let g:markdown_fenced_languages = ['cpp', 'js=javascript',
 " Colorscheme
 " ====================================================================
 set background=dark                  " dark or light
-let g:gruvbox_contrast_dark = "dark" " soft or medium or hard
+let g:gruvbox_contrast_dark = "hard" " soft or medium or hard
 colorscheme gruvbox
 
 " ====================================================================
