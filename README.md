@@ -4,14 +4,30 @@ This is a simple vim setup including key-bindings and simple plugins with vim-pa
 
 ## How to install?
 
+- Go to a home directory.
 ```shell
 cd ~
+```
+- Make a backup of your current setups.
+```shell
 mv .vim{,.bak}
 mv .vimrc{,.bak}
+```
+- Clone the starter
+```shell
 git clone https://github.com/Kang-geophysics/vim_start.git ./vim/
+```
+- Move the setup files into your home directory.
+```shell
 mv vim/.vimrc ~/
 mv vim/.vim ~/
+```
+- Remove a folder including trivials (e.g., `.git` folder and this `README.md`). 
+```shell
 rm -rf vim
+```
+- Unzip plugins. (This is an option. But if you don't want to use plugins, please deactivate setup in `.vimrc`)
+```shell
 cd ~/.vim/
 tar -xvf pack.tar
 ```
