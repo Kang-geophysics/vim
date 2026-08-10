@@ -1,6 +1,7 @@
-# vim
+# Vim Starter
 
-This is a simple vim setup including key-bindings and simple plugins with vim-package.
+This repository was created to maintain a consistent environment across Linux servers and has been tested on Vi IMproved 8.0.
+This includes key-bindings and simple plugins with vim-package. 
 
 ## How to install?
 
