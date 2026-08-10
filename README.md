@@ -29,6 +29,8 @@ Or, you can generate individually.
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/commentary/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/vimwiki/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/lightline/doc' -c quit
+vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/vim-devicons/doc' -c quit
+vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/nerdtree/doc' -c quit
 ```
 
 ## How to add keybindings?
@@ -43,8 +45,10 @@ vi ~/.vim/keybinds.vim
 
 - [Lightline](https://github.com/itchyny/lightline.vim)
 - [Gruvbox-theme](https://github.com/morhetz/gruvbox)
+- [NerdTree](https://github.com/preservim/nerdtree)
 - [Vim-commentary](https://github.com/tpope/vim-commentary)
 - [Vim-wiki](https://github.com/vimwiki/vimwiki)
+- [Vim-devicons](https://github.com/ryanoasis/vim-devicons)
 
 ## How to add another plugins?
 
