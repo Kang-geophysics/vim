@@ -110,6 +110,7 @@ vi ~/.vim/keybinds.vim
 - [Vim-commentary](https://github.com/tpope/vim-commentary)
 - [Vim-wiki](https://github.com/vimwiki/vimwiki)
 - [Vim-devicons](https://github.com/ryanoasis/vim-devicons)
+- [Vim-fugitive](https://github.com/tpope/vim-fugitive)
 
 ## How to add another plugins?
 
