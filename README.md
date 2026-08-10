@@ -57,3 +57,8 @@ vi ~/.vim/keybinds.vim
 If you want to automatically load plugins, please install the plugins under `.vim/pack/*/start`. Then those plugins will be automatically loaded when you open the Vim.
 
 If you want to manually load plugins, please install the plugins under `.vim/pack/*/opt`. And when you need them, just type `:packadd {plugin_name}` to load them. 
+
+## Screenshot
+
+<img width="1496" height="933" alt="image" src="https://github.com/user-attachments/assets/df1fcdfc-f48c-4fc6-b2ce-6ed2bb75feea" />
+
