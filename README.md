@@ -8,7 +8,7 @@ This is a simple vim setup including key-bindings and simple plugins with vim-pa
 cd ~
 mv .vim{,.bak}
 mv .vimrc{,.bak}
-git clone https://github.com/Kang-geophysics/vim.git
+git clone https://github.com/Kang-geophysics/vim_start.git ./vim/
 mv vim/.vimrc ~/
 mv vim/.vim ~/
 rm -rf vim
