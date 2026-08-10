@@ -65,7 +65,22 @@ colorscheme gruvbox
 " ====================================================================
 set laststatus=2
 set noshowmode
-let g:lightline={'colorscheme': 'gruvbox'}
+" Custom function for filetype icon
+function! MyFiletype()
+  return winwidth(0) > 70 ? (strlen(&filetype) ? &filetype . ' ' . WebDevIconsGetFileTypeSymbol() : 'no ft') :
+endfunction
+" Custom function for fileformat icon (optional)
+function! MyFileformat()
+  return winwidth(0) > 70 ? (&fileformat . ' ' . WebDevIconsGetFileFormatSymbol()) : ''
+endfunction
+" Lightline configuration
+let g:lightline = {
+      \ 'colorscheme': 'gruvbox',
+      \ 'component_function': {
+      \   'filetype': 'MyFiletype',
+      \   'fileformat': 'MyFileformat'
+      \ }
+      \ }
 
 " ====================================================================
 " Vimi-wiki
