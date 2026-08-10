@@ -4,9 +4,10 @@
 let mapleader = " "
 
 " ===================================================================
-" File Explorer (NerdTree)
+" File Explorer (NerdTree & netrw)
 " ===================================================================
 nnoremap <leader>e :NERDTreeToggle<CR>
+nnoremap <leader>n :Ex<CR>
 
 " ===================================================================
 " Buffer Navigation
