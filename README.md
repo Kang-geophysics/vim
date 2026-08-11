@@ -124,10 +124,17 @@ If you want to manually load plugins, please install the plugins under `.vim/pac
 ## Screenshots
 
 ### Overall
-<img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/4de5b92a-19f4-4b56-b5c5-a706e44866cc" />
+
+- Markdown
+<img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/21dfcd3f-705f-4f71-bf78-ca4cddc7d32f" />
+
+- Python
+<img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/83ac265f-9f08-4d66-b99b-fd0e142250d4" />
 
 ### Status line
-<img width="1488" height="82" alt="image" src="https://github.com/user-attachments/assets/ddf708b4-aa02-4335-a476-0984e7aa1efa" />
+
+<img width="1898" height="47" alt="image" src="https://github.com/user-attachments/assets/24b348c2-7968-43cb-89fa-8cc9652aae6f" />
+
 
 
 
