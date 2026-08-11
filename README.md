@@ -33,7 +33,7 @@ cd ~/.vim/
 tar -xvf pack.tar
 ```
 
-## Add helptags
+## Add helptags (Option)
 
 To add helptags, please type following commands:
 
@@ -48,6 +48,7 @@ vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/commentary/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/vimwiki/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/lightline/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/vim-devicons/doc' -c quit
+vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/vim-fugitive/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/nerdtree/doc' -c quit
 ```
 
