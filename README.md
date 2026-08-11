@@ -1,9 +1,9 @@
 # Vim Starter
 
-This repository was created to maintain a consistent environment across Linux servers and has been tested on Vi IMproved 8.0.
-This includes key-bindings and simple plugins with vim-package. 
+This repository was created to maintain a consistent Vim environment across Linux servers and has been tested on Vim 8.0.
+This includes key-bindings and simple plugins with Vim packages.
 
-## How to install?
+## 📥 How to install?
 
 - Go to a home directory.
 ```shell
@@ -16,7 +16,7 @@ mv .vimrc{,.bak}
 ```
 - Clone the starter
 ```shell
-git clone https://github.com/Kang-geophysics/vim_start.git ./vim/
+git clone https://github.com/Kang-geophysics/vim_setup.git ./vim/
 ```
 - Move the setup files into your home directory.
 ```shell
@@ -33,7 +33,7 @@ cd ~/.vim/
 tar -xvf pack.tar.gz
 ```
 
-## Add helptags (Option)
+## ﹖Add helptags (Options)
 
 To add helptags, please type following commands:
 
@@ -106,7 +106,7 @@ vi ~/.vim/keybinds.vim
 | `<Leader>xl` / `[l` / `]l` | Normal | Toggle Location list / Previous item / Next item |
 | `<Leader>ft` | Normal | Open bottom terminal pane (4 rows) |
 
-## Plugins
+## 📦 Plugins
 
 - [Auto-pairs](https://github.com/jiangmiao/auto-pairs)
 - [Lightline](https://github.com/itchyny/lightline.vim)
@@ -117,7 +117,7 @@ vi ~/.vim/keybinds.vim
 - [Vim-devicons](https://github.com/ryanoasis/vim-devicons)
 - [Vim-fugitive](https://github.com/tpope/vim-fugitive)
 
-## How to add another plugins?
+### How to add another plugins?
 
 `.vim/pack/plugins/` has two directories. 
 
