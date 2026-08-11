@@ -121,9 +121,13 @@ If you want to automatically load plugins, please install the plugins under `.vi
 
 If you want to manually load plugins, please install the plugins under `.vim/pack/*/opt`. And when you need them, just type `:packadd {plugin_name}` to load them. 
 
-## A screenshot
+## Screenshots
 
+### Overall
 <img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/4de5b92a-19f4-4b56-b5c5-a706e44866cc" />
+
+### Status line
+<img width="1488" height="82" alt="image" src="https://github.com/user-attachments/assets/ddf708b4-aa02-4335-a476-0984e7aa1efa" />
 
 
 
