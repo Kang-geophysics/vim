@@ -31,7 +31,7 @@ nnoremap <leader>\| :vsp<CR>  " Vertical split
 nnoremap <leader>- :sp<CR>    " Horizontal split
 nnoremap <leader>wx <C-w>x    " Swap
 nnoremap <leader>wr <C-w>r    " Rotate
-nnoremap <leader>wH <C-w>H    " Move the window to the far left with full height.
+nnoremap <leader>wH <C-w>H    " Move the window to the far left with full height
 nnoremap <leader>wL <C-w>L    " Move the window to the far right with full height
 nnoremap <leader>wJ <C-w>J    " Move the window to the bottom with full width
 nnoremap <leader>wK <C-w>K    " Move the window to the top with full width
@@ -40,6 +40,7 @@ nnoremap <leader>w- <C-w>-    " Decrease height
 nnoremap <leader>w+ <C-w>+    " Increase height
 nnoremap <leader>w< <C-w><    " Decrease widht
 nnoremap <leader>w> <C-w>>    " Increase width
+nnoremap <leader>w= <C-w>=    " resizes all open split windows to be equal
 
 " ===================================================================
 " Search & UI
