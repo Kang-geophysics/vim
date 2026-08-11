@@ -30,7 +30,7 @@ rm -rf vim
 - Unzip plugins. (This is an option. But if you don't want to use plugins, please deactivate setup in `.vimrc`)
 ```shell
 cd ~/.vim/
-tar -xvf pack.tar
+tar -xvf pack.tar.gz
 ```
 
 ## Add helptags (Option)
