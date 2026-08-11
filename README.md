@@ -21,12 +21,12 @@ mv .vimrc{,.bak}
 ```
 - Clone the starter
 ```shell
-git clone https://github.com/Kang-geophysics/vim_setup.git ./vim/
+git clone https://github.com/Kang-geophysics/vim_setup.git ~/vim/
 ```
 - Move the setup files into your home directory.
 ```shell
-mv vim/.vimrc ~/
-mv vim/.vim ~/
+mv ~/vim/.vimrc ~/
+mv ~/vim/.vim ~/
 ```
 - Remove a folder including trivials (e.g., `.git` folder and this `README.md`). 
 ```shell
