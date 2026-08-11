@@ -52,7 +52,7 @@ vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/nerdtree/doc' -c quit
 
 ## ⌨️ Keymaps
 
-The leader key is configured as <Space>. All keybindings follow standard Vim patterns along with intuitive [LazyVim-inspired](https://www.lazyvim.org/) conventions.
+The leader key is configured as `<Space>`. All keybindings follow standard Vim patterns along with intuitive [LazyVim-inspired](https://www.lazyvim.org/) conventions.
 If you want to edit keybindings, open the `~/.vim/keybinds.vim` file and edit.
 
 ```shell
