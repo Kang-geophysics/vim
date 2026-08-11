@@ -43,6 +43,7 @@ vim -u NONE -c 'helptags ALL' -c quit
 Or, you can generate individually.
 
 ```shell
+vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/auto-pairs/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/commentary/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/vimwiki/doc' -c quit
 vim -u NONE -c 'helptags ~/.vim/pack/plugins/start/lightline/doc' -c quit
@@ -94,6 +95,7 @@ vi ~/.vim/keybinds.vim
 | `<Leader>wd` | Normal | Close current window |
 | `<Leader>w+` / `<Leader>w-` | Normal | Increase / Decrease window height |
 | `<Leader>w>` / `<Leader>w<` | Normal | Increase / Decrease window width |
+| `<Leader>w=` / `<Leader>w=` | Normal | Resize all window to be equal|
 
 ### Quickfix, Location List & Terminal
 
@@ -105,6 +107,7 @@ vi ~/.vim/keybinds.vim
 
 ## Plugins
 
+- [Auto-pairs](https://github.com/jiangmiao/auto-pairs)
 - [Lightline](https://github.com/itchyny/lightline.vim)
 - [Gruvbox-theme](https://github.com/morhetz/gruvbox)
 - [NerdTree](https://github.com/preservim/nerdtree)
