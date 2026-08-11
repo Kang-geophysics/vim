@@ -129,7 +129,8 @@ If you want to manually load plugins, please install the plugins under `.vim/pac
 <img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/21dfcd3f-705f-4f71-bf78-ca4cddc7d32f" />
 
 - Python
-<img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/feb29fc9-b192-4298-a486-7cbdf104ffaa" />
+<img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/dcf0a6c4-3f2f-456a-b5a0-091947343354" />
+
 
 
 ### Status line
