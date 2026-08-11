@@ -38,7 +38,7 @@ cd ~/.vim/
 tar -xvf pack.tar.gz
 ```
 
-## ﹖Add helptags (Options)
+## ➕ Add helptags (Options)
 
 To add helptags, please type following commands:
 
