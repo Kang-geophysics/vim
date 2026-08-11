@@ -1,3 +1,6 @@
+" ====================================================================
+" Custom function for git branch icon with Nerd
+" ====================================================================
 function! FugitiveIconicHead()
   if exists('*FugitiveHead')
     let l:branch = FugitiveHead()
