@@ -96,7 +96,7 @@ vi ~/.vim/keybinds.vim
 | `<Leader>wd` | Normal | Close current window |
 | `<Leader>w+` / `<Leader>w-` | Normal | Increase / Decrease window height |
 | `<Leader>w>` / `<Leader>w<` | Normal | Increase / Decrease window width |
-| `<Leader>w=` / `<Leader>w=` | Normal | Resize all window to be equal|
+| `<Leader>w=`| Normal | Resize all window to be equal|
 
 ### Quickfix, Location List & Terminal
 
