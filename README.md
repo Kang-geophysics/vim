@@ -135,7 +135,8 @@ If you want to manually load plugins, please install the plugins under `.vim/pac
 
 ### Status line
 
-<img width="1898" height="47" alt="image" src="https://github.com/user-attachments/assets/24b348c2-7968-43cb-89fa-8cc9652aae6f" />
+<img width="1901" height="58" alt="image" src="https://github.com/user-attachments/assets/ff56b62b-a1f2-4083-8f40-a4fc53693326" />
+
 
 
 
