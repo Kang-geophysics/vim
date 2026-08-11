@@ -3,6 +3,13 @@
 This repository was created to maintain a consistent Vim environment across Linux servers and has been tested on Vim 8.0.
 This includes key-bindings and simple plugins with Vim packages.
 
+## Requirements
+
+- Vim >= 8.0
+- [Nerd fonts](https://github.com/ryanoasis/nerd-fonts#font-installation)
+  - NerdTree
+  - Devicons    
+
 ## 📥 How to install?
 
 - Go to a home directory.
