@@ -66,6 +66,7 @@ colorscheme gruvbox
 set laststatus=2
 set noshowmode
 source ~/.vim/lightline_w_devicon.vim
+source ~/.vim/fugitive_icon.vim
 let g:lightline = {
       \   'colorscheme': 'gruvbox',
       \   'active':{
@@ -79,7 +80,7 @@ let g:lightline = {
       \                ]
       \   },
       \   'component_function': {
-      \     'gitbranch': 'FugitiveHead',
+      \     'gitbranch': 'FugitivIconicHead',
       \     'filetype': 'MyFiletype',
       \     'fileformat': 'MyFileformat'
       \   }
