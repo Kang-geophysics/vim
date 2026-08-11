@@ -7,8 +7,6 @@ This includes key-bindings and simple plugins with Vim packages.
 
 - Vim >= 8.0
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts#font-installation)
-  - NerdTree
-  - Devicons    
 
 ## 📥 How to install?
 
