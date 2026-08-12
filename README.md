@@ -118,7 +118,7 @@ vi ~/.vim/keybinds.vim
 | `<Leader>Q`| Normal/Visual | Format text and cursor jump to the start of line  |
 | `<Leader>gQ`| Normal/Visual | Format text and cursor stay at current cursor location |
 
-### Vimwik
+### Vimwiki
 
 | Keybinding | Mode | Action |
 | :--- | :--- | :--- |
