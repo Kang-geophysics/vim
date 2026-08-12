@@ -74,3 +74,18 @@ vnoremap <M-j> :move '>+1<CR>gv=gv " Move visually selected line down
 " Terminal
 " ===================================================================
 nnoremap <leader>ft :belowright term ++rows=4<CR>
+
+" ===================================================================
+" Formatting text based with textwidth
+" ===================================================================
+nnoremap Q gq
+nnoremap gQ gw
+vnoremap Q gq
+vnoremap gQ gw
+
+" ===================================================================
+" Vimwiki Custom Keymap
+" ===================================================================
+nnoremap <leader>kk :VimwikiIndex<CR>
+nnoremap <leader>ki :VimwikiDiaryIndex<CR>
+nnoremap <leader>kd :VimwikiMakeDiaryNote<CR>
