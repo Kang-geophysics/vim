@@ -111,6 +111,21 @@ vi ~/.vim/keybinds.vim
 | `<Leader>xl` / `[l` / `]l` | Normal | Toggle Location list / Previous item / Next item |
 | `<Leader>ft` | Normal | Open bottom terminal pane (4 rows) |
 
+### Formatting text based on `textwidth`
+
+| Keybinding | Mode | Action |
+| :--- | :--- | :--- |
+| `<Leader>Q`| Normal/Visual | Format text and cursor jump to the start of line  |
+| `<Leader>gQ`| Normal/Visual | Format text and cursor stay at current cursor location |
+
+### Vimwik
+
+| Keybinding | Mode | Action |
+| :--- | :--- | :--- |
+| `<Leader>kk`| Normal | Go to vimwiki index  |
+| `<Leader>ki`| Normal | Go to diary index |
+| `<Leader>kd`| Normal | Go to today's diary note |
+
 ## 📦 Plugins
 
 - [Auto-pairs](https://github.com/jiangmiao/auto-pairs)
