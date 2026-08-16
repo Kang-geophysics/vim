@@ -39,7 +39,7 @@ set history=1000              " Increase the command and search history limit
 " ====================================================================
 " Change cursor shape based on mode in terminal
 " ====================================================================
-let &t_EI = "\<Esc>[2 q"  " Normal mode: Block
+autocmd VimEnter * silent! let &t_EI = "\e[2 q" | silent! execute "normal! \<Esc>"
 let &t_SI = "\e[6 q"      " Steady vertical bar in Insert mode
 
 " ====================================================================
