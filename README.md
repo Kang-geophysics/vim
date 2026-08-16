@@ -94,8 +94,8 @@ vi ~/.vim/keybinds.vim
 | Keybinding | Mode | Action |
 | :--- | :--- | :--- |
 | `Ctrl + h/j/k/l` | Normal | Navigate to window (Left / Down / Up / Right) |
-| `<Leader>\|` | Normal | Split window vertically |
-| `<Leader>-` | Normal | Split window horizontally |
+| `<Leader>%` | Normal | Split window vertically |
+| `<Leader>"` | Normal | Split window horizontally |
 | `<Leader>wx` / `<Leader>wr` | Normal | Swap windows / Rotate windows |
 | `<Leader>wH/J/K/L` | Normal | Move window to far Left / Bottom / Top / Right |
 | `<Leader>wd` | Normal | Close current window |
