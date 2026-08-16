@@ -27,8 +27,8 @@ nnoremap <C-k> <C-w>k " Move to upper window
 " ===================================================================
 " Window Splitting & Management
 " ===================================================================
-nnoremap <leader>\| :vsp<CR>  " Vertical split
-nnoremap <leader>- :sp<CR>    " Horizontal split
+nnoremap <leader>% :vsp<CR>   " Vertical split
+nnoremap <leader>" :sp<CR>    " Horizontal split
 nnoremap <leader>wx <C-w>x    " Swap
 nnoremap <leader>wr <C-w>r    " Rotate
 nnoremap <leader>wH <C-w>H    " Move the window to the far left with full height
