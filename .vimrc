@@ -97,3 +97,11 @@ let g:vimwiki_global_ext = 0 " Treat all markdown file as part of Vimwiki
 " comments plugin
 " ====================================================================
 filetype plugin indent on     " Enable detection, plugins, and indenting for filetypes
+
+" ====================================================================
+" LSP
+" ====================================================================
+let g:lsp_diagnostics_enabled = 1
+if filereadable(expand('~/.vim/lsp.vim'))
+  source ~/.vim/lsp.vim
+endif
