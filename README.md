@@ -127,9 +127,14 @@ vi ~/.vim/keybinds.vim
 | `<Leader>kd`| Normal | Go to today's diary note |
 
 ### Vimwiki
+
 | Keybinding | Mode | Action |
 | :--- | :--- | :--- |
 | `<Leader>ll`| Normal | Check LSP status |
+| `gd`| Normal | Go to definition |
+| `[g`| Normal | Go to previous diagnostic |
+| `]g`| Normal | Go to next diagnostic |
+| `K`| Normal | Hover |
 
 ## 📦 Plugins
 
