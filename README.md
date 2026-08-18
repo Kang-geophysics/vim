@@ -147,10 +147,6 @@ vi ~/.vim/keybinds.vim
 - [Vim-devicons](https://github.com/ryanoasis/vim-devicons)
 - [Vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [Vim-lsp](https://github.com/prabirshrestha/vim-lsp)
-  - Currently, `pack.tar.gz` doesn't include this `vim-lsp.vim` plugin and language-server protocol (LSP), which is kind of connector between language server (LS) and editor (client), though this repository contains `lsp.vim` configuration file for `python` (using `ruff`) and `markdown` (using `rumdl`).
-  - If you want to use LSP feature in your Vim, please install this plugin (using `git clone {url}`) manually into `~/.vim/pack/plugins/start/`.
-  - In case of LS, if you use virtual environment, just install LSP into your virtual environment (e.g., using `pip install ruff`).
-  - Or [vim-lsp-settings](https://github.com/mattn/vim-lsp-settings) use this to manage LSP.
 
 ### How to add another plugins?
 
@@ -159,6 +155,14 @@ vi ~/.vim/keybinds.vim
 If you want to automatically load plugins, please install the plugins under `.vim/pack/*/start`. Then those plugins will be automatically loaded when you open the Vim.
 
 If you want to manually load plugins, please install the plugins under `.vim/pack/*/opt`. And when you need them, just type `:packadd {plugin_name}` to load them. 
+
+### Notification
+
+- Currently, `pack.tar.gz` doesn't include this `vim-lsp.vim` plugin and language-server protocol (LSP), which is kind of connector between language server (LS) and editor (client), though this repository contains `lsp.vim` configuration file for `python` (using `ruff`) and `markdown` (using `rumdl`).
+- If you want to use LSP feature in your Vim, please install this plugin (using `git clone {url}`) manually into `~/.vim/pack/plugins/start/`.
+- In case of LS, if you use virtual environment, just install LSP into your virtual environment (e.g., using `pip install ruff`).
+- Or [vim-lsp-settings](https://github.com/mattn/vim-lsp-settings) use this to manage LSP.
+
 
 ## Screenshots
 
