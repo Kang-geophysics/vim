@@ -126,7 +126,7 @@ vi ~/.vim/keybinds.vim
 | `<Leader>ki`| Normal | Go to diary index |
 | `<Leader>kd`| Normal | Go to today's diary note |
 
-### Vimwiki
+### Vim-LSP
 
 | Keybinding | Mode | Action |
 | :--- | :--- | :--- |
