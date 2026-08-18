@@ -158,8 +158,8 @@ If you want to manually load plugins, please install the plugins under `.vim/pac
 
 ### Notification
 
-- Currently, `pack.tar.gz` doesn't include this `vim-lsp.vim` plugin and language-server protocol (LSP), which is kind of connector between language server (LS) and editor (client), though this repository contains `lsp.vim` configuration file for `python` (using `ruff`) and `markdown` (using `rumdl`).
-- If you want to use LSP feature in your Vim, please install this plugin (using `git clone {url}`) manually into `~/.vim/pack/plugins/start/`.
+- Currently, `pack.tar.gz` doesn't include this `vim-lsp.vim` plugin, which is kind of connector between language server (LS) and editor (client), though this repository contains `lsp.vim` configuration file for `python` (using `ruff`) and `markdown` (using `rumdl`).
+- If you want to use LSP (language server protocol) feature in your Vim like VS code, please install this plugin (using `git clone {url}`) manually into `~/.vim/pack/plugins/start/`.
 - In case of LS, if you use virtual environment, just install the server into your virtual environment (e.g., using `pip install ruff`). Or [vim-lsp-settings](https://github.com/mattn/vim-lsp-settings) use this plugin to manage LSP.
 
 
