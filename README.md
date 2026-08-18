@@ -136,6 +136,7 @@ vi ~/.vim/keybinds.vim
 - [Vim-wiki](https://github.com/vimwiki/vimwiki)
 - [Vim-devicons](https://github.com/ryanoasis/vim-devicons)
 - [Vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [Vim-lsp](https://github.com/prabirshrestha/vim-lsp)
 
 ### How to add another plugins?
 
